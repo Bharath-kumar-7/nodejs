@@ -23,7 +23,14 @@ db.connect((err)=>{
 })
 
 app.get('/',(req,res)=>{
-res.send('Backend is running...');
+    db.query('select * from todolist',(err,result)=>{
+    if (err) {
+            console.log("Error occured in get",err)
+            return
+        }
+        console.log("Data:",result)
+        res.json(result);
+    })
 })
 
 app.post('/add-item',(req,res)=>{
