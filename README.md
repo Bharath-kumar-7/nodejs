@@ -81,3 +81,14 @@ project/
 └── README.md
 
 ```
+#### Better to install all modules as in that
+- Nodemon installation
+  ``` bash
+  cd backend
+  ```
+  ``` bash
+  npm install -g nodemon
+  ```
+  ``` bash
+  npx nodemon server.js
+  ```
