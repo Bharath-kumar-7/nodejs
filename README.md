@@ -67,6 +67,17 @@ axios.post("http://localhost:5000/api/users", {
 | 🗄️ Database  | MY SQL               | Stores and retrieves data                          |
 | 🔌 API       | RESTful endpoints    | Enables communication between frontend and backend |
 
+```
+### Summary
+``` bash
+| Step | Component         | Action                                   |
+| ---- | ----------------- | ---------------------------------------- |
+| 1    | Frontend          | Sends API request (`fetch('/add-item')`) |
+| 2    | Express (Backend) | Receives request and runs SQL query      |
+| 3    | MySQL             | Stores/fetches data                      |
+| 4    | Express           | Sends response (success or data)         |
+| 5    | Frontend          | Displays updated data                    |
+
 
 ```
 ### Directory Structure
