@@ -68,7 +68,7 @@ axios.post("http://localhost:5000/api/users", {
 | 🔌 API       | RESTful endpoints    | Enables communication between frontend and backend |
 
 ```
-### Summaray
+### Summary
 ``` bash
 | Step | Component         | Action                                   |
 | ---- | ----------------- | ---------------------------------------- |
